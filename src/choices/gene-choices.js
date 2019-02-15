@@ -31,13 +31,46 @@ const impress = {
     audio: ''
 };
 
+const freak = {
+    description: 'Leave the restaurant immediately.',
+    id: 'freak',
+    name: 'Freak Out',
+    result: 'Thankfully, the fire does not spread. Bob and Linda take everyone\'s allowance to pay for the damages. Lose 5 burger points and 5 allowance.',
+    bp: -5,
+    allowance: -5,
+    image: '',
+    audio: ''
+};
+
+const help = {
+    description: 'Run upstairs and get Tina to help you.',
+    id: 'help',
+    name: 'Get Tina\'s Help',
+    result: 'She helps you at a cost, you must pay her off. Gain 5 burger points and lose 5 allowance.',
+    bp: 5,
+    allowance: -5,
+    image: '',
+    audio: ''
+};
+
+const extinguish = {
+    description: 'Try to put out the fire yourself.',
+    id: 'extinguish',
+    name: 'Think Fast',
+    result: 'Gene throws a pile of potatoes onto the fire, and it goes out. You clean up and slip back into bed without a trace.',
+    bp: 5,
+    allowance: 0,
+    image: '',
+    audio: ''
+};
+
 const artsChoices = [hide, plead, impress];
-const quest2Choices = [];
+const fireChoices = [freak, help, extinguish];
 const quest3Choices = [];
 
 const geneAllChoices = {
     arts: artsChoices, 
-    quest2: quest2Choices, 
+    fire: fireChoices, 
     quest3: quest3Choices
 };
 

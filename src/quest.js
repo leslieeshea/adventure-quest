@@ -59,16 +59,12 @@ formNode.addEventListener('submit', function(event) {
     }
 
     const result = document.getElementById('results');
-
     result.textContent = chosen.result;
 
     user.bp += chosen.bp;
     user.allowance += chosen.allowance;
     user.completed[quest.id] = true;
 
-    console.log(user);
-
     const json = JSON.stringify(user);
     window.localStorage.setItem('user', json);
-
 });

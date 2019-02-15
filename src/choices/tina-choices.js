@@ -22,7 +22,7 @@ const fight = {
 const reason = {
     description: 'Try to talk Jimmy Jr. into letting you into his room.',
     id: 'reason',
-    name: 'Reason',
+    name: 'Seduce',
     result: 'Jimmy Jr. convinces his dad that he invited you to the party all along. You not only get to catch a peek of his party, you also get to join it! Gain 5 burger points and 5 allowance in your party favor bag.',
     bp: 5,
     allowance: 5,
