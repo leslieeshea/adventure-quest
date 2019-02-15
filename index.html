@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belcher Children Adventure Game</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Belcher Children Adventure Game
+        </h1>
+    </header>
+    <main>
+        <section>
+            <form id="user-input">
+                <fieldset>
+                    <label for="name">
+                        Name:
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                        >
+                    </label>
+                    <p>Pick a partner:</p>
+                    <p>
+                        <label>
+                            <input
+                                type="radio"
+                                name="partner"
+                                id="louise"
+                                value="louise"
+                            >
+                            Louise</label>
+                    </p>
+                    <p>
+                        <label>
+                            <input
+                                type="radio"
+                                name="partner"
+                                id="gene"
+                                value="gene"
+                            >
+                            Gene</label>
+                    </p>
+                    <p>
+                        <label>
+                            <input
+                                type="radio"
+                                name="partner"
+                                id="tina"
+                                value="tina"
+                            >
+                            Tina</label>
+                    </p>
+                </fieldset>
+                <button>Begin!</button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="./src/index.js"></script>
+</body>
+</html>
