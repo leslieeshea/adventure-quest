@@ -11,6 +11,7 @@ const tinaQuests = [
         image: '',
         audio: ''
     },
+
     {
         id: 'butt',
         name: 'Butts Galore!',
@@ -19,6 +20,7 @@ const tinaQuests = [
         image: '',
         audio: ''
     },
+
     {
         id: 'zombie',
         name: 'Zombie Make-Out Party',
@@ -38,6 +40,7 @@ const geneQuests = [
         image: '',
         audio: ''
     },
+
     {
         id: 'fire',
         name: 'Gene Starts a Fire',
@@ -46,6 +49,7 @@ const geneQuests = [
         image: '',
         audio: ''
     },
+
     {
         id: 'fart',
         name: 'Fart Song',
@@ -65,6 +69,7 @@ const louiseQuests = [
         image: '',
         audio: ''
     },
+
     {
         id: 'rats',
         name: 'Release the Rats!',
@@ -73,6 +78,7 @@ const louiseQuests = [
         image: '',
         audio: ''
     },
+    
     {
         id: 'ghost',
         name: 'Ghosthunt',

@@ -2,7 +2,7 @@ const hide = {
     description: 'Put on costumes from backstage and sneak into the crowd forming around the Arts Center.',
     id: 'hide',
     name: 'Hide',
-    result: 'The director of the current production showing at the Center recognizes the costumes and rats you out to the cops. Sergeant Bosco drives you home and Linda grounds you. Lose 5 burger points.',
+    result: 'The director of the current production showing at the Center recognizes the costumes and rats you out to the cops. Sergeant Bosco drives you home, and Linda grounds you. Lose 5 burger points.',
     bp: -5,
     allowance: 0,
     image: '',
@@ -10,7 +10,7 @@ const hide = {
 };
 
 const plead = {
-    description: 'Come out of the Center crying, claiming you lost your bus money and were just trying to get out of the rain.',
+    description: 'Come out of the Center crying, claiming you lost your bus money and was just trying to get out of the rain.',
     id: 'plead',
     name: 'Plead',
     result: 'Sergeant Bosco takes pity on you. He gives you bus money and a little something extra to get a treat from the store. Gain 5 allowance.',
@@ -46,7 +46,7 @@ const help = {
     description: 'Run upstairs and get Tina to help you.',
     id: 'help',
     name: 'Get Tina\'s Help',
-    result: 'She helps you at a cost, you must pay her off. Gain 5 burger points and lose 5 allowance.',
+    result: 'She helps you at a cost, and you must pay her off. Gain 5 burger points and lose 5 allowance.',
     bp: 5,
     allowance: -5,
     image: '',
@@ -57,7 +57,7 @@ const extinguish = {
     description: 'Try to put out the fire yourself.',
     id: 'extinguish',
     name: 'Think Fast',
-    result: 'Gene throws a pile of potatoes onto the fire, and it goes out. You clean up and slip back into bed without a trace.',
+    result: 'Gene throws a pile of potatoes onto the fire, and it goes out. You clean up and slip back into bed without a trace. Gain 5 burger points.',
     bp: 5,
     allowance: 0,
     image: '',

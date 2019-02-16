@@ -1,16 +1,16 @@
+import allQuests from './quests.js';
 const userJSON = window.localStorage.getItem('user');
 if(!userJSON) {
     window.location = '/';
 }
 const user = JSON.parse(userJSON);
 
-import allQuests from './quests.js';
-
 const linksNode = document.getElementById('links');
 
 const partner = user.partner;
 
 const quests = allQuests[partner];
+
 let counter = 0;
 
 for(let i = 0; i < quests.length; i++) {
